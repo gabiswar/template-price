@@ -1,6 +1,5 @@
 import axios from 'axios';
-import { useEffect, useMemo, useState } from 'react';
-import { useMedia } from '@dsplay/react-template-utils';
+import { useEffect, useState } from 'react';
 
 //'MM-DD-YYYY'
 const getFormattedDate = () => {
@@ -62,7 +61,7 @@ export function useCurrencyPriceFromPromise(moeda) {
     const [loading, setLoading] = useState(true);
     const promise = useCurrencyPricePromise(moeda);
     const currentTime = getFormattedDate();
-    // console.log('get from promise', currentTime);
+    
     useEffect(() => {
         async function fetch() {
             try {
@@ -75,7 +74,6 @@ export function useCurrencyPriceFromPromise(moeda) {
                 setLoading(false);
             }
         }
-
         fetch();
     }, [currentTime]);
 
