@@ -10,41 +10,16 @@ var dsplay_config = {
 
 var dsplay_media = {
     moedas: [{
-        flag: "../test-assets/FlagBrazil.png",
-        currency: "BRL",
-        weSell: "1.1",
-        weBuy: "1.2", 
+        currency: "AUD",
     },{
-        flag: "../test-assets/FlagCanada.png",
-        currency: "CAD",
-        weSell: "11.5",
-        weBuy: "12.2", 
+        currency: "USD",
     },{
-        flag: "../test-assets/FlagJapan.png",
-        currency: "JPY",
-        weSell: "22.1",
-        weBuy: "20.4", 
+        currency: "CHF",
     },{
-        flag: "../test-assets/FlagNewZealand.png",
-        currency: "NZD",
-        weSell: "30.1",
-        weBuy: "32.4", 
-    },
-    {
-        flag: "../test-assets/FlagBrazil.png",
-        currency: "BRL",
-        weSell: "1.1",
-        weBuy: "1.2", 
-    },
-    {
-        flag: "../test-assets/FlagBrazil.png",
-        currency: "BRL",
-        weSell: "1.1",
-        weBuy: "1.2", 
-    },]
-
-    /*     { currency: 'USD', weBuy: 1.2, weSell: 1.1 },
-    { currency: 'EUR', weBuy: 1.5, weSell: 1.4 },*/
+        currency: "DKK",
+    },{
+        currency: "EUR",
+    }]
 };
 
 var dsplay_template = {

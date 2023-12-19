@@ -16,48 +16,54 @@ i18n
       en: {
         translations: {
           locale: enUS,
-          Title: 'Title',
-          floor: 'Flor'
+          Compra: 'Purchase',
+          Venda: 'Sale'
         },
       },
       pt: {
         translations: {
           locale: ptBR,
-          floor: 'Piso'
+          Compra: 'Compra',
+          Venda: 'Venda'
         },
       },
       fr: {
         translations: {
           locale: fr,
-          floor: 'Piso'
+          Compra: 'Achat',
+          Venda: 'Vente'
         },
       },
       de: {
         translations: {
           locale: de,
-          floor: 'Piso',
-          update: 'Aktualisieren',
+          Compra: 'Kauf',
+          Venda: 'Verkauf'
         },
       },
       es: {
         translations: {
           locale: es,
-          floor: 'Piso',
+          Compra: 'Compra',
+          Venda: 'Venta'
         },
       },
       it: {
         translations: {
           locale: it,
-          floor: 'Piso',
+          Compra: 'Acquisto',
+          Venda: 'Vendita'
         },
       },
       nl: {
         translations: {
           locale: nl,
-          floor: 'Piso',
+          Compra: 'Aankoop',
+          Venda: 'Verkoop'
         },
       },
     },
+    
     fallbackLng: 'en',
     debug: true,
 

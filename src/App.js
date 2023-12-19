@@ -4,6 +4,7 @@ import HeaderContainer from './components/header/HeaderContainer';
 import TableContainer from './components/table/TableContainer';
 import { useMedia, Loader, useScreenInfo } from '@dsplay/react-template-utils';
 import Intro from './components/intro';
+import { useCurrencyPricePromise } from './hooks/use-currency-price';
 
 const MIN_LOADING_DURATION = 2800;
 
@@ -12,32 +13,27 @@ const MIN_LOADING_DURATION = 2800;
 const fonts = [
   'Roboto Condensed',
 ];
-function App() {
-  let media = useMedia();
-  const { screenFormat } = useScreenInfo();
-  // const moedas = [
-  //   { currency: 'USD', weBuy: 1.2, weSell: 1.1 },
-  //   { currency: 'EUR', weBuy: 1.5, weSell: 1.4 },
-  //   // Adicione mais dados conforme necessário
-  // ];
 
+function App() {
+  const { screenFormat } = useScreenInfo();
+  let media = useMedia();
   const moedas = media.moedas;
+
+  const firstLoad = useCurrencyPricePromise(moedas);
   
   return (
     <Loader
       placeholder={<Intro />}
       fonts={fonts}
       minDuration={MIN_LOADING_DURATION}
+      tasks={[firstLoad]}
     >
       <div className={`app-container fade-in ${screenFormat}`}>
         <HeaderContainer></HeaderContainer>
         {moedas.map((data, index) => (
           <TableContainer 
             key={index} 
-            flag={data.flag}
             currency={data.currency}
-            weSell={data.weSell}
-            weBuy={data.weBuy}
           ></TableContainer>
         ))}
       </div>
