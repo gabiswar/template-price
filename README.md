@@ -2,9 +2,11 @@
 
 ## Example 
 **Horizontal**
+
 ![image](https://github.com/gabiswar/template-price/assets/108243030/6924419c-2764-41b3-85ae-f727c33f1e70)
 
 **Vertical**
+
 ![image](https://github.com/gabiswar/template-price/assets/108243030/02dcfe06-3d88-4ccf-9f23-3a2284060359)
 
 
