@@ -24,8 +24,9 @@ var dsplay_media = {
 
 var dsplay_template = {
     // template parameter
-    template_var: "My Template Var",
-    logo: '../test-assets/dsplay-logo.png',
-    title: "My Super Template",
-    expanded: "false",
+   
+    backgoundColor: '#161617',
+    backgoundNumberColor: '#020101',
+    numberColor: '#fff',
+    textColor: '#fff',
 };

@@ -1,4 +1,5 @@
 import { createContext } from 'react';
+import { useTemplateVal } from '@dsplay/react-template-utils';
 
 export const ThemeContext = createContext({
     globalTheme: {
@@ -10,10 +11,10 @@ export const ThemeContext = createContext({
 });
 
 const ThemeContextParent = (props) => {
-    const backgoundColor = '#161617';
-    const backgoundNumberColor = '#020101';
-    const numberColor = '#fff';
-    const textColor = '#fff';
+    const backgoundColor = useTemplateVal('backgoundColor') || '#161617';
+    const backgoundNumberColor = useTemplateVal('backgoundNumberColor') || '#020101';
+    const numberColor = useTemplateVal('numberColor') ||'#fff';
+    const textColor = useTemplateVal('textColor') ||'#fff';
     
     const { children } = props;
 
