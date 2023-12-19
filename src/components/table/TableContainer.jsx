@@ -9,11 +9,11 @@ import './style.scss';
 function TableContainer(props) {
   const { globalTheme } = useContext(ThemeContext);
   const loaderContext = useContext(LoaderContext);
+  const { tasksResults: [initalInformation] } = loaderContext;
   
   let weBuy = 0.000;
   let weSell = 0.000;
 
-  const { tasksResults: [initalInformation] } = loaderContext;
   if (!initalInformation || (initalInformation && !initalInformation.length)) {
     weBuy = 0.000;
     weSell = 0.000;
