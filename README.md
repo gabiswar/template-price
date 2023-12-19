@@ -1,7 +1,11 @@
 # DSPLAY - React Template Price
 
 ## Example 
+**Horizontal**
 ![image](https://github.com/gabiswar/template-price/assets/108243030/6924419c-2764-41b3-85ae-f727c33f1e70)
+
+**Vertical**
+![image](https://github.com/gabiswar/template-price/assets/108243030/02dcfe06-3d88-4ccf-9f23-3a2284060359)
 
 
 Configuration
@@ -12,18 +16,18 @@ This template has some configuration variables as the following table shows:
 | moedas        | Array  | List of currency objects            |
 | moedas.currency | String | Currency code                     |
 
-Currencies allowed by the API:
+Currencies allowed by the API from "Banco Central do Brasil":
 
-USD: // United States Dollar
-AUD: // Australian Dollar
-CAD: // Canadian Dollar
-DKK: // Danish Krone
-EUR: // Euro
-JPY: // Japanese Yen
-NOK: // Norwegian Krone
-SEK: // Swedish Krona
-CHF: // Swiss Franc
-GBP: // British Pound Sterling
+- USD: United States Dollar
+- AUD: Australian Dollar
+- CAD: Canadian Dollar
+- DKK: Danish Krone
+- EUR: Euro
+- JPY: Japanese Yen
+- NOK: Norwegian Krone
+- SEK: Swedish Krona
+- CHF: Swiss Franc
+- GBP: British Pound Sterling
 
 ## Available Scripts
 
