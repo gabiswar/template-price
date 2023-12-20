@@ -3,11 +3,11 @@
 ## Example 
 **Horizontal**
 
-![image](https://github.com/gabiswar/template-price/assets/108243030/6924419c-2764-41b3-85ae-f727c33f1e70)
+![image](https://github.com/gabiswar/template-price/assets/108243030/92fd2dab-f371-4577-b1ff-3df24b021128)
 
 **Vertical**
 
-![image](https://github.com/gabiswar/template-price/assets/108243030/02dcfe06-3d88-4ccf-9f23-3a2284060359)
+![image](https://github.com/gabiswar/template-price/assets/108243030/451c2bda-c5c2-4fe9-b4e1-65097a169141)
 
 
 Configuration
