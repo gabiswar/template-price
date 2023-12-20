@@ -58,7 +58,7 @@
   object-fit: cover;
 }
 
-@media (max-width: 715px) {
+@media (max-width: 480px) {
   .table-row {
     font-size: 20px !important;
     padding: 5px !important;
@@ -86,6 +86,95 @@
   .currency-image {
     width: 35px !important; 
     height: 35px !important;
+  }
+}
+
+
+@media (max-width: 680px) {
+  .table-row {
+    font-size: 20px !important;
+    padding: 5px !important;
+  }
+
+  .table-flag {
+    padding: 5px !important;
+  }
+  
+  .legend {
+    font-size: 18px !important;
+  }
+
+  .value {
+    padding: 5px !important;
+    border-radius: 5px !important;
+  }
+
+  .flag-content {
+    font-size: 22px !important;
+    margin-right: 3px !important;
+    margin-left: 3px !important;
+  }
+
+  .currency-image {
+    width: 35px !important; 
+    height: 35px !important;
+  }
+}
+
+@media (max-width: 780px) {
+  .table-row {
+    font-size: 40px !important;
+    padding: 5px !important;
+    padding-top: 15px !important;
+  }
+
+  .table-flag {
+    padding: 8px !important;
+  }
+  
+  .legend {
+    font-size: 25px !important;
+  }
+
+  .value {
+    padding: 10px !important;
+    border-radius: 5px !important;
+  }
+
+  .flag-content {
+    font-size: 45px !important;
+  }
+
+  .currency-image {
+    width: 50px !important; 
+    height: 50px !important;
+  }
+}
+
+
+//para telas baixas
+@media (max-height: 720px) {
+  .table-row {
+    font-size: 35px !important;
+    padding: 5px !important;
+  }
+  
+  .legend {
+    font-size: 18px !important;
+  }
+
+  .value {
+    padding: 5px !important;
+    border-radius: 5px !important;
+  }
+
+  .flag-content {
+    font-size: 35px !important;
+  }
+
+  .currency-image {
+    width: 50px !important; 
+    height: 50px !important;
   }
 }
 

@@ -11,19 +11,32 @@
   text-align: center;
 }
 
-// .header p {
-//   margin: 7px;
-//   // color: white;
-// }
-
-@media (max-width: 715px) {
+@media (max-width: 680px) {
   .header {
     font-size: 40px !important;
   }
 }
 
+@media (max-width: 780px) {
+  .header {
+    font-size: 45px !important;
+  }
+
+  .main-header {
+    margin-bottom: 20px !important;
+  }
+}
+
+//para telas baixas
+@media (max-height: 720px) {
+  .header {
+    font-size: 40px !important;
+    padding: 10px !important;
+  }
+}
+
 //para telas altas
-@media (min-height: 1280px) {
+@media (min-height: 1400px) {
   .header {
     font-size: 70px !important;
   }

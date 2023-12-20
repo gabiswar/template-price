@@ -11,8 +11,6 @@ import ThemeContextParent from './contexts/themeContext';
 
 const MIN_LOADING_DURATION = 2800;
 
-// fonts to preload
-// @font-face's must be defined in fonts.sass or another in-use style file
 const fonts = [
   'Roboto Condensed',
 ];
