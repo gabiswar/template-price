@@ -18,6 +18,16 @@ This template has some configuration variables as the following table shows:
 | moedas        | Array  | List of currency objects            |
 | moedas.currency | String | Currency code                     |
 
+Users can configure the background colors
+
+| Property             | Type   | Description                   |
+| -------------------- |--------| ----------------------------- |
+| backgroundColor      | String | Background color code         |
+| backgroundColorNumber | String | Background number color code  |
+| numberColor           | String | Number color code             |
+| textColor             | String | Text color code               |
+
+
 Currencies allowed by the API from "Banco Central do Brasil":
 
 - USD: United States Dollar
