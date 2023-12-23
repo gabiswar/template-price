@@ -10,7 +10,7 @@
 ![image](https://github.com/gabiswar/template-price/assets/108243030/451c2bda-c5c2-4fe9-b4e1-65097a169141)
 
 
-Configuration
+## Configuration
 This template has some configuration variables as the following table shows:
 
 | Property      | Type   | Description                         |
