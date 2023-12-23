@@ -18,7 +18,7 @@ This template has some configuration variables as the following table shows:
 | moedas        | Array  | List of currency objects            |
 | moedas.currency | String | Currency code                     |
 
-Users can configure the background colors
+Users can configure the background colors. If not specified, default colors will be used as shown in the example images above.
 
 | Property             | Type   | Description                   |
 | -------------------- |--------| ----------------------------- |
